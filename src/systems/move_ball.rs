@@ -1,7 +1,7 @@
 extern crate amethyst;
 use crate::pong::Ball;
 
-use amethyst::ecs::prelude::{Component, DenseVecStorage};
+// use amethyst::ecs::prelude::{Component, DenseVecStorage};
 use amethyst::{
     core::timing::Time,
     core::transform::Transform,
@@ -26,4 +26,4 @@ impl<'s> System<'s> for MoveBallsSystem {
     }
 }
 
-fn main() {}
+// fn main() {}

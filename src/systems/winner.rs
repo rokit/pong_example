@@ -2,7 +2,6 @@ extern crate amethyst;
 
 use amethyst::{
 	core::transform::Transform,
-	// --snip--
 	ecs::prelude::{Join, ReadExpect, System, Write, WriteStorage},
 	ui::UiText,
 };
@@ -63,4 +62,4 @@ impl<'s> System<'s> for WinnerSystem {
 	}
 }
 
-fn main() {}
+// fn main() {}

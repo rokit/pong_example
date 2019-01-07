@@ -1,5 +1,5 @@
 extern crate amethyst;
-use amethyst::ecs::prelude::{Component, DenseVecStorage};
+// use amethyst::ecs::prelude::{Component, DenseVecStorage};
 
 use amethyst::{
     core::transform::Transform,
@@ -68,4 +68,4 @@ fn point_in_rect(x: f32, y: f32, left: f32, bottom: f32, right: f32, top: f32) -
     x >= left && x <= right && y >= bottom && y <= top
 }
 
-fn main() {}
+// fn main() {}
